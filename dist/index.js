@@ -1,0 +1,1 @@
+function s(t){let o=["click","touchstart","mousedown","mousemove"],n={capture:!0};function r(e){e.preventDefault(),e.stopPropagation()}return o.forEach(e=>t.addEventListener(e,r,n)),{destroy(){o.forEach(e=>t.removeEventListener(e,r,n))}}}export{s as disablePreload};
