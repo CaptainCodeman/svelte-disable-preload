@@ -1,7 +1,7 @@
 # svelte-disable-preload
 
-![minified](https://img.shields.io/bundlephobia/min/svelte-disable-preload/0.0.1?style=for-the-badge)
-![minified + zipped](https://img.shields.io/bundlephobia/minzip/svelte-disable-preload/0.0.1?style=for-the-badge)
+![minified](https://img.shields.io/bundlephobia/min/svelte-disable-preload/0.0.2?style=for-the-badge)
+![minified + zipped](https://img.shields.io/bundlephobia/minzip/svelte-disable-preload/0.0.2?style=for-the-badge)
 
 SveltKit provides a client-side router that handles navigation when anchor elements are clicked. It can also be [configured to preload data](https://kit.svelte.dev/docs/link-options) to make your app seem "snappier". It does this by listening for various `click`, `mousedown`, `mousemove`, and `touchstart` events on the document which will bubble from elements.
 
